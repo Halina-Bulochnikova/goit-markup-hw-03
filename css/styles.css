@@ -5,7 +5,7 @@ body {
     background-color: #FFFFFF;
     line-height: 1.5;
 }
-h1 h2 h3 p {
+h1, h2, h3, h4, h5, h6 p {
   margin: 0;
 }
 ul {
@@ -16,11 +16,11 @@ img {
   display: block;
 }
 .container { 
-  max-width: 1440px;
-  padding-left:  
-  padding-right:  
+  max-width: 1158px;
+  padding-left: 26px;
+  padding-right: 26px; 
   margin-left: 156px;
-  margin-right:  
+  margin-right: 156px;
   }
 .link-nav {
   font-family: "Raleway", sans-serif;
@@ -81,6 +81,9 @@ img {
 }
 .main-button {
   background-color: #2e2f42;
+}
+.section {
+  padding: 120px 0 120px 0;
 }
 .main-title {
   font-weight: 700;
