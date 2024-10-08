@@ -4,7 +4,16 @@ body {
     color:#434455;
     background-color: #FFFFFF;
     line-height: 1.5;
-
+}
+h1 h2 h3 p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
 }
 .link-nav {
   font-family: "Raleway", sans-serif;
@@ -135,7 +144,6 @@ color: #434455;
 }
 .team-foto-item {
   background: url("path_to_image");
-  display: block;
 }
 .team-name-person {
   font-weight: 500;
@@ -160,9 +168,6 @@ color: #434455;
 }
 .portfolio-list {
   list-style-type: none;
-}
-.portfolio-foto {
-  display: block;
 }
 .portfolio-list-item {
   font-weight: 500;
@@ -197,11 +202,4 @@ color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-}
-.main-title .advantage-title .advanteges-list-text .advanteges-list .advanteges-list-text .team-title .team-name-person .team-text .portfolio-title .portfolio-list-item .portfolio-list-item-text .footer-text {
-  margin: 0 0 0 0;
-}
-.nav-list .address-list .advantage-title-list .team-title-list .portfolio-title {
-  margin: 0 0 0 0;
-  padding-left: 0;
 }
