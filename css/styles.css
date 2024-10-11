@@ -201,7 +201,8 @@ color: #434455;
   background-color: #F4F4FD;
 }
 .container-team {
-width: 1140;}
+width: 1140px;
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
