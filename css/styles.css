@@ -25,8 +25,6 @@ img {
   }
 .container-header {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
   height: 72px;
 }
@@ -77,6 +75,7 @@ img {
 .link-nav-list-item {
   text-decoration: none;  
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .address {
@@ -167,7 +166,18 @@ img {
   line-height: 1.11111;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  visibility: hidden;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .advantage-title-list {
  list-style-type: none; 
@@ -177,13 +187,13 @@ img {
  padding-left: 156px;
  padding-right: 156px;
  gap: 24px;
+ calc((100% - 72px) / 4);
 }
 .advantage-list-item {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  width: calc((100% - 72px) / 4);
 }
 .advanteges-list {
   font-weight: 500;
@@ -269,7 +279,7 @@ width: 1140px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 72px;  
+  margin-bottom: 8px 
 }
 .portfolio-list {
   list-style-type: none;
@@ -328,13 +338,11 @@ width: 1140px;
   color: #4d5ae5;
   margin-bottom: 16px;
   margin-top: 105px;
-  display: inline-block;
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
   gap: 0px;
-  
-  
+  display: inline-block;
 }
 .footer-logo-item {
   color: #f4f4fd;
