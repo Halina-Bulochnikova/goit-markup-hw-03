@@ -187,7 +187,6 @@ img {
  padding-left: 156px;
  padding-right: 156px;
  gap: 24px;
- calc((100% - 72px) / 4);
 }
 .advantage-list-item {
   display: flex;
@@ -195,6 +194,7 @@ img {
   justify-content: flex-start;
   flex-direction: column;
   width: calc((100% - 72px) / 4);
+
 }
 .advanteges-list {
   font-weight: 500;
@@ -348,6 +348,7 @@ width: 1140px;
 }
 .footer-logo-item {
   color: #f4f4fd;
+  display: inline-block;
 }
 .footer-text {
   font-size: 16px;
