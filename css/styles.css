@@ -184,9 +184,8 @@ img {
  display: flex;
  padding-top: 120px;
  padding-bottom: 120px;
- padding-left: 0;
+ padding-left: 156px;
  padding-right: 156px;
- margin: 0;
  gap: 24px;
 }
 .advantage-list-item {
@@ -194,7 +193,10 @@ img {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
+  padding-left: 0;
+  margin: 0;
   width: calc((100% - 72px) / 4);
+
 }
 .advanteges-list {
   font-weight: 500;
@@ -233,9 +235,8 @@ width: 1140px;
   gap: 24px;
   padding-top: 232px;
   padding-bottom: 120px;
-  padding-left: 0;
+  padding-left: 156px;
   padding-right: 156px;
-  margin: 0;
 }
 .team-list {
   background-color: #FFFFFF;
@@ -245,6 +246,8 @@ width: 1140px;
   flex-direction: column;
   gap: 32px;
   border-radius: 0px 0px 4px 4px;
+  padding-left: 0;
+  margin: 0;
   width: calc((100% - 72px) / 4);
 }
 .team-foto-item {
