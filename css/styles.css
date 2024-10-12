@@ -11,6 +11,7 @@ h1, h2, h3, h4, h5, h6 p {
 ul {
   margin: 0;
   padding-left: 0;
+  padding-right: 0;
 }
 img {
   display: block;
@@ -184,8 +185,6 @@ img {
  display: flex;
  padding-top: 120px;
  padding-bottom: 120px;
- padding-left: 156px;
- padding-right: 156px;
  gap: 24px;
 }
 .advantage-list-item {
@@ -193,8 +192,6 @@ img {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  padding-left: 0;
-  margin: 0;
   width: calc((100% - 72px) / 4);
 
 }
@@ -234,20 +231,16 @@ width: 1140px;
   display: flex;
   gap: 24px;
   padding-top: 232px;
-  padding-bottom: 120px;
-  padding-left: 156px;
-  padding-right: 156px;
+  padding-bottom: 120px;;
 }
 .team-list {
   background-color: #FFFFFF;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   gap: 32px;
   border-radius: 0px 0px 4px 4px;
-  padding-left: 0;
-  margin: 0;
   width: calc((100% - 72px) / 4);
 }
 .team-foto-item {
